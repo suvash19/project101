@@ -1,4 +1,5 @@
-<!--  create the war -->
+<project>
+  <!--  create the war -->
 <plugin>
   <artifactId>maven-war-plugin</artifactId>
   <configuration>
@@ -11,3 +12,4 @@
       <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
     </repository>
   </repositories>
+</project>
