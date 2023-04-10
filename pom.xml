@@ -5,3 +5,9 @@
     <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
   </configuration>
 </plugin>
+<repositories>
+    <repository>
+      <id>${NEXUS-GRP-REPO}</id>
+      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
+    </repository>
+  </repositories>
